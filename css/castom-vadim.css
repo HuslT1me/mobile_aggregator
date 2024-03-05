@@ -57,6 +57,7 @@
 
 .nav__item { 
     cursor: pointer;
+    text-transform: lowercase;
 }
 
 .nav__item:hover { 
