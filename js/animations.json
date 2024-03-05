@@ -1,0 +1,213 @@
+{
+  "common": [
+    { "el": ".title:not(.title-icon__text)" },
+    { "el": ".title-icon" },
+    { "el": ".header__left-col" },
+    { "el": ".breadcrumbs__active-link" },
+    {
+      "el": ".header__center-col",
+      "animation": {
+        "delay": 100
+      }
+    },
+    {
+      "el": ".header__right-col",
+      "animation": {
+        "delay": 200
+      }
+    },
+    { "el": ".main__col:first-child" },
+    {
+      "el": ".main__small-col",
+      "animation": {
+        "delay": 100,
+        "increment": true
+      }
+    },
+    {
+      "el": ".main__full-col",
+      "animation": {
+        "delay": 200
+      }
+    },
+    {
+      "el": ".product-catalog__col",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".discount .product__col .product__item-wrap .product__item",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".new-product .product__col .product__item-wrap .product__item",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".discount__col",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".about-company__col",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".about-company__img-col",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".footer",
+      "animation": {
+        "class": "fade-down"
+      }
+    },
+    {
+      "el": ".product__col--simple-catalog .product__item-wrap",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".pagination__item",
+      "animation": {
+        "increment": true,
+        "delay": 500
+      }
+    },
+    {
+      "el": ".purchase-info__col > div",
+      "animation": {
+        "increment": true
+      }
+    },
+    { "el": ".product-catalog__top-content-wrap" },
+    {
+      "el": ".price-filter",
+      "animation": {
+        "delay": 100
+      }
+    },
+    {
+      "el": ".checkbox-filter--manufacturer",
+      "animation": {
+        "delay": 200
+      }
+    },
+    {
+      "el": ".checkbox-filter--color",
+      "animation": {
+        "delay": 300
+      }
+    },
+    {
+      "el": ".checkbox-filter--brand",
+      "animation": {
+        "delay": 400
+      }
+    },
+    { "el": ".reset-btn" },
+    {
+      "el": ".sorting",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".widget > ul li, .widget > div",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".cart-list [class*=col-] .cart-list__item",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".shipping-item",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".feedback__fields .input-wrap",
+      "animation": {
+        "increment": true
+      }
+    },
+    {
+      "el": ".feedback__btn",
+      "animation": {
+        "delay": 300
+      }
+    },
+    { "el": ".cart__bottom-row" },
+    {
+      "el": ".animate",
+      "animation": {
+        "delay": 100
+      }
+    },
+    { "el": ".cart__title-icon-wrap" },
+    { "el": ".product-single-slider" },
+    { "el": ".product-single__title" },
+    {
+      "el": ".product-single__code-wrap",
+      "animation": {
+        "delay": 100
+      }
+    },
+    {
+      "el": ".product-information__col",
+      "animation": {
+        "increment": true
+      }
+    },
+    { "el": ".color-filter__title" },
+    {
+      "el": ".color-filter__item",
+      "animation": {
+        "delay": 100,
+        "increment": true
+      }
+    },
+    { "el": ".product-single__desc" },
+    { "el": ".product-specifications__title" },
+    {
+      "el": ".product-specifications__row",
+      "animation": {
+        "delay": 100,
+        "increment": true
+      }
+    },
+    {
+      "el": ".product-table__container",
+      "animation": {
+        "increment": true
+      }
+    },
+    { "el": ".product-table-header" },
+    {
+      "el": ".profile-form__inputs .input-wrap",
+      "animation": {
+        "increment": true
+      }
+    },
+    { "el": ".text-content p" },
+    { "el": ".about__title" },
+    { "el": ".text-content blockquote" },
+    { "el": ".profile-form__btn" }
+  ]
+}

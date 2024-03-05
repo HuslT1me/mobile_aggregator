@@ -1,0 +1,78 @@
+body {
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  height: 44px;
+  border-bottom: #f6f6f6 solid 1px;
+  background: url("../../img/_system/img/sf_top.png") repeat-x;
+}
+
+a {
+  color: #999898;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+.foot {
+  height: 30px;
+  border-top: #f6f6f6 solid 1px;
+  background: url("../../img/_system/img/sf_foot.png") repeat-x;
+  padding: 20px 0 0 0;
+  color: #999898;
+}
+
+/* .main{
+    margin-left: 15px;
+    padding-left: 7px;
+    border-left: 4px solid #00B8DF;
+} */
+.main h2 {
+  color: #5F656C;
+  text-transform: uppercase;
+  font: 100% 'Roboto', sans-serif;
+  padding-bottom: 3px;
+}
+
+p {
+  color: #444444;
+  font: 100% 'Roboto', sans-serif;
+  margin-bottom: 3px;
+}
+
+.foot .info,
+#counter {
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+.foot .content {
+  position: relative;
+  display: table;
+  left: 50%;
+}
+
+.foot .info {
+  margin: 20px 20px 0 0;
+}
+
+/* countdown */
+.cntSeparator {
+  font-size: 54px;
+  margin: 10px 7px;
+  color: #000;
+}
+
+.foot+div {
+  display: none;
+}
