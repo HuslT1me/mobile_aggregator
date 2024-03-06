@@ -9681,13 +9681,7 @@ a.phone__link span {
   margin-bottom: 8px;
 }
 
-.checkbox-filter__label:hover {
-  color: #00A8C1;
-}
 
-.checkbox-filter__label:hover .checkbox-filter__label-text:after {
-  background: #00A8C1;
-}
 
 .checkbox-filter__label-text {
   padding-left: 22px;
@@ -10213,6 +10207,16 @@ a.phone__link span {
 @media only screen and (max-width: 1279px) {
   .cart__bottom-info-wrap {
     padding-right: 12px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .checkbox-filter__label:hover {
+    color: #00A8C1;
+  }
+  
+  .checkbox-filter__label:hover .checkbox-filter__label-text:after {
+    background: #00A8C1;
   }
 }
 

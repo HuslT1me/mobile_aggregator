@@ -341,6 +341,20 @@
         margin-right: 10px;
     }
 
+    .checkbox-filter__label-text:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -11px;
+        width: 15px;
+        height: 15px;
+        background: #DADADA;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        margin-right: 10px;
+    }
+
     .price-filter { 
         display: flex;
         align-items: start;
@@ -348,6 +362,7 @@
         width: 100%;
     }
 
+    
     .popup-filter__checkbox:checked +.checkbox-filter__label-text:after {
         background: #00A8C1;
     }
