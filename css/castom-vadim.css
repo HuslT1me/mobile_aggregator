@@ -91,6 +91,9 @@
     width: 23px;
     display: block;
 }
+
+
+
 .hamburger.hamburger--slider.js-menu.is-active .bg-menu{
     height: 15px;
     width: 15px;
@@ -112,6 +115,12 @@
 .choices__list--dropdown .choices__list, .choices__list[aria-expanded] .choices__list { 
     padding-left: 10px;
 }
+
+.header__wrap:first-child:after {
+    background-color: #D9D9D9;
+}
+
+
 
 @media screen and (min-width: 769px) and (max-width: 1023px) { 
     .mobile-menu { 
@@ -168,6 +177,7 @@
 
     .favorite-link__count {
         left: 18px;
+        top: -7px;
     }
 
     .header__user-panel-link {
@@ -252,6 +262,7 @@
         transition: all 0.3s cubic-bezier(0.57, 0.04, 0.46, 0.98);
              
     }
+
     
     .choices {
         margin-bottom: 5px;
@@ -437,6 +448,45 @@
     
 }
 
+@media screen and (max-width: 575px) {
+    .main-content {
+        padding-top: 115px;
+    }
+    
+    .header { 
+        padding-top: 21px;
+        padding-bottom: 0;
+    }
+
+    .header__logo-link { 
+        width: 152px;
+    }
+    
+    .header__logo {
+        height: 24px;
+        width: 100%;
+    }
+
+    .header__logo-wrap {
+        max-width: 152px;
+    }
+
+    .header__select-location { 
+        margin-top: 10px;
+    }
+
+    .header__wrap:first-child:after {
+        top: -8px;
+    }
+   
+    .mobile-menu__container { 
+        padding-top: 25px;
+    }
+
+    .favorite-link { 
+        margin-right: 30px;
+    }
+}
 
 /* меню категорий */
 
@@ -572,7 +622,7 @@
   }
 
   .nav ul {
-    transition: transform 0.7s ease, opacity 0.8s ease-out;
+    transition: transform 0.3s ease, opacity 0.3s ease-out;
   }
 
   .header__wrap .hamburger.is-active {
